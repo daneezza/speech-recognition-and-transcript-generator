@@ -23,7 +23,6 @@ A modern, accessible web application that converts speech to text in real time.
 ## Getting Started 🚀
 
 1. Clone the repository:
-sh
 ```
 https://github.com/daneezza/speech-recognition-and-transcript-generator.git
 ```
