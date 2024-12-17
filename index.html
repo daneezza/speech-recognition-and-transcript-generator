@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Recognition</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Speech Recognition App</h1>
+        <div id="text" class="transcript-box">Your speech will appear here...</div>
+        <div class="controls">
+            <button id="startBtn">
+                <i class="fas fa-microphone"></i> Start Recording
+            </button>
+            <button id="stopBtn" disabled>
+                <i class="fas fa-stop"></i> Stop Recording
+            </button>
+            <button id="clearBtn">
+                <i class="fas fa-trash"></i> Clear
+            </button>
+            <button id="downloadBtn">
+                <i class="fas fa-download"></i> Download Transcript
+            </button>
+        </div>
+        <p class="status" id="status">Click 'Start Recording' to begin</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
