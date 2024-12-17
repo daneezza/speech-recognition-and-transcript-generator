@@ -1,6 +1,6 @@
 # Speech Recognition App 🎤
 
-A modern, accessible web application that converts speech to text in real-time.
+A modern, accessible web application that converts speech to text in real time.
 
 ## Features ✨
 
@@ -18,7 +18,7 @@ A modern, accessible web application that converts speech to text in real-time.
 
 ## Live Demo 🌐
 
-[https://daneezza.github.io/speech-recognition-and-transcript-generator/]
+[Click Here to View Live Project](https://daneezza.github.io/speech-recognition-and-transcript-generator/)
 
 ## Getting Started 🚀
 
@@ -35,7 +35,7 @@ sh``` https://github.com/daneezza/speech-recognition-and-transcript-generator.gi
 2. Speak clearly into your microphone
 3. Watch as your speech appears as text in real-time
 4. Use "Stop Recording" to pause the recognition
-5. "Clear" button removes all transcribed text
+5. The "Clear" button removes all transcribed text
 6. "Download Transcript" saves your text as a file
 
 ## Browser Support 🌐
@@ -48,7 +48,7 @@ sh``` https://github.com/daneezza/speech-recognition-and-transcript-generator.gi
 
 [Your Name]
 - GitHub: [daneezza](https://github.com/daneezza)
-- LinkedIn: [daneesha hansaka]((https://www.linkedin.com/in/daneezza/))
+- LinkedIn: [Daneesha Hansaka](https://www.linkedin.com/in/daneezza/)
 
 ---
 
