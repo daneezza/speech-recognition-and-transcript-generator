@@ -23,11 +23,14 @@ A modern, accessible web application that converts speech to text in real time.
 ## Getting Started 🚀
 
 1. Clone the repository:
-sh``` https://github.com/daneezza/speech-recognition-and-transcript-generator.git ```
+sh
+```
+https://github.com/daneezza/speech-recognition-and-transcript-generator.git
+```
 
-2. Open `index.html` in your web browser
+3. Open `index.html` in your web browser
 
-3. Click the microphone button and start speaking!
+4. Click the microphone button and start speaking!
 
 ## Usage 💡
 
