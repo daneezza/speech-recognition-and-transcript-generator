@@ -49,7 +49,7 @@ https://github.com/daneezza/speech-recognition-and-transcript-generator.git
 ## Author ✍️
 
 [Your Name]
-- GitHub: [daneezza](https://github.com/daneezza)
+- GitHub: [Daneezza](https://github.com/daneezza)
 - LinkedIn: [Daneesha Hansaka](https://www.linkedin.com/in/daneezza/)
 
 ---
