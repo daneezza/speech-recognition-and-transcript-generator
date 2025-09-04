@@ -7,22 +7,38 @@
     <link rel="icon" type="image/x-icon" href="mic01.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <div class="container">
         <h1>Speech Recognition App</h1>
-        <div id="text" class="transcript-box">Your speech will appear here...</div>
+        <div id="text" class="transcript-box" aria-live="polite">Your speech will appear here...</div>
         <div class="controls">
-            <button id="startBtn">
+            <select id="languageSelect" aria-label="Recognition language">
+                <option value="en-US" selected>English (US)</option>
+                <option value="en-GB">English (UK)</option>
+                <option value="es-ES">Spanish (Spain)</option>
+                <option value="fr-FR">French</option>
+                <option value="de-DE">German</option>
+                <option value="it-IT">Italian</option>
+                <option value="pt-BR">Portuguese (Brazil)</option>
+                <option value="hi-IN">Hindi</option>
+                <option value="ja-JP">Japanese</option>
+                <option value="ko-KR">Korean</option>
+            </select>
+            <button id="startBtn" aria-label="Start recording">
                 <i class="fas fa-microphone"></i> Start Recording
             </button>
-            <button id="stopBtn" disabled>
+            <button id="stopBtn" disabled aria-label="Stop recording">
                 <i class="fas fa-stop"></i> Stop Recording
             </button>
-            <button id="clearBtn">
+            <button id="clearBtn" aria-label="Clear transcript">
                 <i class="fas fa-trash"></i> Clear
             </button>
-            <button id="downloadBtn">
+            <button id="copyBtn" aria-label="Copy transcript">
+                <i class="fas fa-copy"></i> Copy
+            </button>
+            <button id="downloadBtn" aria-label="Download transcript">
                 <i class="fas fa-download"></i> Download Transcript
             </button>
         </div>
