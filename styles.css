@@ -54,6 +54,9 @@ h1 {
     transition: all 0.3s ease;
     font-size: clamp(0.9rem, 2vw, 1rem);
     color: #fff;
+    line-height: 1.5;
+    outline: none;
+    cursor: text;
 }
 
 #text:focus {
@@ -61,6 +64,37 @@ h1 {
     outline: none;
     box-shadow: inset 0 2px 4px rgba(0,0,0,0.2),
                 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+#text:empty:before {
+    content: "Your speech will appear here...";
+    color: #888;
+}
+
+.settings {
+    margin-bottom: 1rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.settings label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #00ffff;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.settings input[type="checkbox"] {
+    accent-color: #00ffff;
+}
+
+.settings input[type="range"] {
+    width: 100px;
+    margin-left: 0.5rem;
 }
 
 .controls {
@@ -123,16 +157,12 @@ button:disabled {
     text-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
 }
 
-/* Recording indicator */
-body.recording .status::before {
-    content: '';
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background: #ff3b30;
-    border-radius: 50%;
-    box-shadow: 0 0 8px rgba(255, 59, 48, 0.8);
-    margin-right: 8px;
+.instruction {
+    color: #888;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-style: italic;
 }
 
 @media (max-width: 480px) {
